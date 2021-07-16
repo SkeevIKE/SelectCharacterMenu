@@ -1,0 +1,52 @@
+{
+    "name": "CharacterMenuActions",
+    "maps": [
+        {
+            "name": "MainMap",
+            "id": "eecaa246-84e9-4f73-a807-fa82e4a94b5d",
+            "actions": [
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "df70d285-dea1-43d0-be00-89c29bd2873d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftMosePressd",
+                    "type": "Button",
+                    "id": "3dad9b48-f37a-4e2d-8b3d-8e351c74315b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4ec0a10f-bec8-4389-a712-a26f3367d201",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07223846-ff75-4354-b358-722fd7dcf743",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftMosePressd",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

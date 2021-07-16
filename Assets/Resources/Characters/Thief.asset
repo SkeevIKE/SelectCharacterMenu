@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7625c1ac550494d9972693465e8307, type: 3}
+  m_Name: Thief
+  m_EditorClassIdentifier: 
+  _characterName: 2
+  _characterScene: {fileID: 6627055583175925735, guid: 4ed2d0d807f07ac42ba629a03f2d8bd2,
+    type: 3}
+  _characterAnimationSpeed: 1
+  _armorTypesPermitted: 1
+  _equippedHat: {fileID: 11400000, guid: 9b58e061ce2145348a5276f46e0084b6, type: 2}
+  _weaponTypesPermitted: 4
+  _equippedWeapon: {fileID: 11400000, guid: 19e8d1d1cc7e1dc498e13401eed563d0, type: 2}
+  _renderTexture: {fileID: 8400000, guid: 83b56117298f76a4ba3c8e2a0f22a93a, type: 2}
